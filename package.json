@@ -1,0 +1,14 @@
+{
+  "name": "steam-api-worker",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "typecheck": "tsc --project tsconfig.json",
+    "dev": "wrangler dev",
+    "deploy": "wrangler publish"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.0",
+    "@cloudflare/workers-types": "^4.202"
+  }
+}

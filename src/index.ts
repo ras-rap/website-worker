@@ -1,4 +1,4 @@
-import { loadSteamRecentGames, resolveSteamRecentGamesCount } from '../../src/server/steamRecentGames'
+import { loadSteamRecentGames, resolveSteamRecentGamesCount } from './steamRecentGames'
 
 type Env = {
   STEAM_API_KEY?: string
