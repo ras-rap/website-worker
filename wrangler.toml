@@ -1,0 +1,6 @@
+name = 'steam-api'
+main = "src/index.ts"
+compatibility_date = "2026-05-24"
+
+# Bind a route such as /api/steam/recent-games in the Cloudflare dashboard,
+# or add a route here once you know the exact zone and pattern you want.
